@@ -1,40 +1,49 @@
-AdventureWorks Sales & Performance Dashboard | Power BI
+# AdventureWorks Sales & Performance Dashboard | Power BI
 
 An interactive, multi-page Power BI report that tracks revenue, profit, orders, returns, and customer behaviour for AdventureWorks, a fictional bicycle and accessories retailer. It gives executives a one-page view of performance and lets analysts drill into products, customers, and regions.
 
-Executive Dashboard
+![Executive Dashboard](images/Dashboard-Overview.png)
 
-Business Problem
+## Business Problem
 
 Leadership needs to answer questions like:
 
-How are revenue, profit, and orders trending month over month?
-Which product categories and products drive orders, and which have the highest return rates?
-Where (by continent and country) are orders coming from?
-Who are the top customers, and what do high-value customers have in common?
-Are we on track against revenue, profit, and order targets?
-Data
-Source: AdventureWorks sample dataset
-Model: Star schema with a central measure table and lookup (dimension) tables for Calendar, Product, Product Categories, Product Subcategories, Customer, and Territory
-Tools Used
-Power BI Desktop: data modelling, DAX measures, interactive report design
-Excel / SQL: used for cleaning and preparing data in this project
-Report Pages
-Page	What it shows
-Exec Dashboard-	KPI cards for Revenue, Profit, Orders, and Return Rate; month-over-month KPI trends; revenue trend line; orders by category; top ordered and top returned product types; product table with orders, revenue, and return rate
-Map- Orders by country on an interactive map, filterable by continent
-Product Detail-	Profit trend (actual vs adjusted), gauges for Revenue, Profit, and Orders against targets, and a returns trend by selected metric
-Customer Detail-	Total customers, average revenue per customer, orders by occupation and income level, customer trends, and a Top 100 Customers table
-Decomposition Tree-	Break down total orders by category, subcategory, and product to find what drives volume
-Key Influencers-	AI visuals showing which product and customer attributes (price, cost, income, education, occupation, home ownership, and others) influence outcomes
-Category Tooltip-	Custom hover tooltip showing orders, revenue, profit, returns, and return rate for a category
-Key Features
-Custom navigation: left-hand nav buttons and icons to move between pages
-Bookmarks: show/hide slicer panel and one-click "clear filters" buttons on the Exec and Customer pages
-What-if analysis: a Price Adjustment (%) slicer to see how price changes affect profit
-Dynamic metric switching: slicers that let users switch the metric shown in the product and customer trend charts
-Targets: gauges comparing actual revenue, profit, and orders to target
-Custom tooltips and mobile layouts for the main page
+- How are revenue, profit, and orders trending month over month?
+- Which product categories and products drive orders, and which have the highest return rates?
+- Where (by continent and country) are orders coming from?
+- Who are the top customers, and what do high-value customers have in common?
+- Are we on track against revenue, profit, and order targets?
+
+## Data
+
+- **Source:** AdventureWorks sample dataset
+- **Model:** Star schema with a central measure table and lookup (dimension) tables for Calendar, Product, Product Categories, Product Subcategories, Customer, and Territory
+
+## Tools Used
+
+- **Power BI Desktop:** data modelling, DAX measures, interactive report design
+- **Excel / SQL:** used for cleaning and preparing data in this project
+
+## Report Pages
+
+| Page | What it shows |
+|---|---|
+| **Exec Dashboard** | KPI cards for Revenue, Profit, Orders, and Return Rate; month-over-month KPI trends; revenue trend line; orders by category; top ordered and top returned product types; product table with orders, revenue, and return rate |
+| **Map** | Orders by country on an interactive map, filterable by continent |
+| **Product Detail** | Profit trend (actual vs adjusted), gauges for Revenue, Profit, and Orders against targets, and a returns trend by selected metric |
+| **Customer Detail** | Total customers, average revenue per customer, orders by occupation and income level, customer trends, and a Top 100 Customers table |
+| **Decomposition Tree** | Break down total orders by category, subcategory, and product to find what drives volume |
+| **Key Influencers** | AI visuals showing which product and customer attributes (price, cost, income, education, occupation, home ownership, and others) influence outcomes |
+| **Category Tooltip** | Custom hover tooltip showing orders, revenue, profit, returns, and return rate for a category |
+
+## Key Features
+
+- **Custom navigation:** left-hand nav buttons and icons to move between pages
+- **Bookmarks:** show/hide slicer panel and one-click "clear filters" buttons on the Exec and Customer pages
+- **What-if analysis:** a Price Adjustment (%) slicer to see how price changes affect profit
+- **Dynamic metric switching:** slicers that let users switch the metric shown in the product and customer trend charts
+- **Targets:** gauges comparing actual revenue, profit, and orders to target
+- **Custom tooltips and mobile layouts** for the main page
 ## Key Insights
 
 1. **Strong margins and a growth trend.** The business generated ₹17.5M in revenue and ₹7.4M in profit (about a 42% margin) across 19.1K orders. Monthly revenue accelerated from mid-2021 onward and reached ₹1.38M in the latest month, up 1.14% on the previous month.
