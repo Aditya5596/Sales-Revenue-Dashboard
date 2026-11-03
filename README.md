@@ -1,4 +1,4 @@
-# AdventureWorks Sales & Performance Dashboard | Power BI
+# AdventureWorks Sales & Performance Dashboard | Power BI | SQL | EXCEL |
 
 An interactive, multi-page Power BI report that tracks revenue, profit, orders, returns, and customer behaviour for AdventureWorks, a fictional bicycle and accessories retailer. It gives executives a one-page view of performance and lets analysts drill into products, customers, and regions.
 
