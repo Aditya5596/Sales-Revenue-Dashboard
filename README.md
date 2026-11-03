@@ -70,4 +70,4 @@ Leadership needs to answer questions like:
 - Keep investing in the US market, and test growth campaigns in the smaller markets.
 ## Explore the Report
 
-Download `AdventureWorks_Report.pbix` and open it in Power BI Desktop (free, Windows only). A walkthrough video is linked above for anyone who can't open the file.
+Download `AdventureWorks_Report.pbix` and open it in Power BI Desktop (free, Windows only). 
